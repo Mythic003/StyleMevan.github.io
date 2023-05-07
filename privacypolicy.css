@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a minimum height for the body to include the footer */
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black; /* Set the background color to black */
+  color: white; /* Set the text color to white */
+}
+
+ /* Navigation Menu */
+ nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+/* Navigation Menu Hover Effect */
+nav a:hover {
+color: aqua;
+}
+/* Privacy Policy section styles */
+.privacy-policy-section {
+  flex-grow: 1;
+  padding: 20px;
+  margin-top: 60px; /* Adjust margin-top to make space for the fixed navbar */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.privacy-policy-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.policy-item {
+  margin-bottom: 40px;
+}
+
+.policy-item h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.policy-item p {
+  line-height: 1.6;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

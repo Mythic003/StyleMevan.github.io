@@ -1,0 +1,221 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .logo-container img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  
+  .logo-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Menu */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  /* Navigation Menu Hover Effect */
+nav a:hover {
+  color: aqua;
+}
+
+  
+  /* Header Section */
+  header {
+    background-image: url('https://i.imgur.com/leP9HsT.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  header p {
+    font-size: 24px;
+  }
+  
+ 
+  /* Men's Clothing Section */
+  #mens-clothing {
+    background-color: black;
+    color: #fff;
+  }
+
+ .men{
+  text-decoration: none;
+  color: #fff;
+ }
+  
+  .women{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .children{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  /* Men's Clothing Section */
+#mens-clothing {
+  text-align: center;
+}
+
+/* Women's Clothing Section */
+#womens-clothing {
+  text-align: center;
+}
+
+/* Kids' Clothing Section */
+#kids-clothing {
+  text-align: center;
+}
+
+/* Men's Clothing Section */
+#mens-clothing a:hover {
+  color: aquamarine;
+}
+
+/* Women's Clothing Section */
+#womens-clothing a:hover {
+  color: aquamarine;
+}
+
+/* Kids' Clothing Section */
+#kids-clothing a:hover {
+  color: aquamarine;
+}
+
+
+
+#mens-clothing h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #mens-clothing ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  #mens-clothing ul li {
+    text-align: center;
+    width: 250px;
+  }
+  
+  #mens-clothing ul li img {
+    max-width: 100%;
+  }
+  
+  #mens-clothing ul li p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+  
+  /* Footer Section */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Footer Hover Effect */
+footer a:hover {
+  color: aqua;
+}
+footer .social-media {
+  margin-top: 20px;
+}
+
+footer .social-icon {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 8px;
+  font-size: 24px;
+}
+
+footer p {
+  margin-top: 10px;
+}
+

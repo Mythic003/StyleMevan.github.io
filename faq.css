@@ -1,0 +1,108 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a minimum height for the body to include the footer */
+  body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white */
+  }
+  
+   /* Navigation Menu */
+   nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  /* Navigation Menu Hover Effect */
+nav a:hover {
+  color: aqua;
+}
+  
+  /* FAQ section styles */
+  .faq-section {
+    flex-grow: 2;
+    padding: 30px;
+  }
+  
+  .faq-item {
+    margin-bottom: 50px;
+  }
+  
+  .question {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .question h2 {
+    margin-right: 20px;
+  }
+  
+  .question .arrow {
+    width: 10px;
+    height: 10px;
+    border-top: 2px white #000;
+    border-right: 2px white #000;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .open .arrow {
+    transform: rotate(225deg);
+  }
+  
+  .answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .open .answer {
+    max-height: 500px; /* Adjust the max-height as needed */
+    margin-top: 10px;
+  }
+  
+  /* Terms and Conditions section styles */
+  .terms-section {
+    padding: 70px;
+  }
+  
+  .terms-container {
+    margin-top: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
