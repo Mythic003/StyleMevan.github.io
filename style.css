@@ -79,6 +79,33 @@ nav a:hover {
     font-size: 24px;
   }
   
+  /* CSS for card view and mobile responsiveness */
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Adjustments for mobile devices */
+  @media (max-width: 768px) {
+    .image-container {
+      flex-direction: column;
+    }
+
+    .image-container img {
+      margin-bottom: 10px;
+    }
+  }
  
   /* Men's Clothing Section */
   #mens-clothing {
