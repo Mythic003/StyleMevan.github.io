@@ -44,7 +44,7 @@ nav a:hover {
 position: relative;
 background-color: #333;
 color: #fff;
-padding: 100px 0;
+padding: 50px 0;
 text-align: center;
 }
 
@@ -63,18 +63,6 @@ font-size: 18px;
 margin-bottom: 30px;
 }
 
-.hero-image {
-position: relative;
-max-width: 100%;
-height: auto;
-margin-bottom: 30px;
-}
-
-.hero-image img {
-max-width: 100%;
-height: auto;
-display: block;
-}
 
 .hero-text {
 position: relative;

@@ -65,29 +65,31 @@ nav a:hover {
     margin-right: 20px;
   }
   
-  .question .arrow {
+  .arrow {
+    display: inline-block;
     width: 10px;
     height: 10px;
-    border-top: 2px white #000;
-    border-right: 2px white #000;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
     transform: rotate(45deg);
-    transition: transform 0.3s ease-in-out;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
   }
   
   .open .arrow {
-    transform: rotate(225deg);
+    transform: rotate(-135deg);
   }
   
   .answer {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease-in-out;
+    transition: max-height 0.3s ease;
   }
   
   .open .answer {
-    max-height: 500px; /* Adjust the max-height as needed */
-    margin-top: 10px;
+    max-height: 200px; /* Adjust the height as needed */
   }
+  
   
   /* Terms and Conditions section styles */
   .terms-section {
